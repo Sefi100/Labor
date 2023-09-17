@@ -154,6 +154,71 @@
     \end{equation}
     Alacsony hőmérsékletű szürke testekre igaz tehát, hogy integrált emisszióképességük csak egy konstans ($a\in[0, 1]$) szorzóban tér el a fekete testétől.
 
+    \section{Előkészületek}
+    A mérés elején megmértük a "Stefan-Boltzmann-izzó" és az alacsony hőmérsékletű sugárforrás ("kocka") érzékelő termisztorának kezdeti, hideg ellenállását.
+    A termisztor ellenállása multiméterrel mérve $R_{t0}=84,45\pm 0,10~\mathrm{k\Omega}$-nak adódott, míg az izzó ellenállását annak kicsi volta miatt egy négypontos ellenállásmérővel mértük és $R_{s0}=0,274\pm 0,003~\Omega$ értéket kaptunk.
+
+    Kiszámítottuk továbbá a leiratban (\cite{leir}) mellékelt táblázatok alapján az izzó ellenállásának és a kockában és az abszorpciómérőben lévő termisztorok ellenállásának hőmérsékletfüggését.
+    Az izzó wolframszálának esetében a szobahőmérsékletre normált ellenállás ($\frac{R}{R_{300\mathrm{K}}}$) a vizsgált tartományban ($\approx300$-$3000$K) jó közelítéssel lineáris függést mutat, így ilyen alakú függvényt illesztettünk rá:
+    \begin{equation}
+        T\left(\frac{R}{R_{300\mathrm{K}}}\right)=(169,02\pm 1,54)\cdot\frac{R}{R_{300\mathrm{K}}}+()251,29\pm17,92)~\mathrm{K},
+    \end{equation}
+    ahol a paraméterek hibáit az illesztés kovarianciamátrixából határoztuk meg.
+
+    A termisztor esetében már nem volt ilyen egyszerű dolgunk, mivel ennek tudottan nemlineáris az ellenállás-hőmérséklet karakterisztikája.
+    Ettől függetlenül a kapott értékeket ábrázolva úgy gondoltuk, hogy a függés valamilyen hatványfüggvény szerinti lesz, a Python pedig sok ismeretlen paramétert is jól illeszt.
+    Az így illesztett függvény a következő lett:
+    \begin{equation}
+        T(R_t)=\dfrac{745,55\pm 0,64}{R_t^{0,1350\pm 0,0003}}+(-132,66\pm 0,49)~\mathrm{K}.
+    \end{equation}
+    Az illesztések pontosságát \aref{fig:1ill}. ábra mutatja.
+    Minden ezután következő feladatban ezen függésekből határoztuk meg a hőmérsékleteket a mért ellenállásértékekből.
+    \begin{figure}[H]
+        \centering
+        \begin{subfigure}[b]{0.49\textwidth}
+            \centering
+            \includegraphics[width=\textwidth]{1linilleszt}
+            \caption{A táblázatból kapott adatok és az illesztés az izzószál hőmérsékletének ellenállásfüggésére}
+            \label{fig:1izzo}
+        \end{subfigure}
+        \begin{subfigure}[b]{0.49\textwidth}
+            \centering
+            \includegraphics[width=\textwidth]{1vmiilleszt}
+            \caption{A táblázatból kapott adatok és az illesztés a termisztor hőmérsékletének ellenállásfüggésére}
+            \label{fig:1term}
+        \end{subfigure}
+        \caption{Az illesztett hőmérséklet-ellenállásfüggések}
+        \label{fig:1ill}
+    \end{figure}
+
+    \section[Magas Hőmérsékletű Sugárforrás]{Stefan-Boltzmann-Törvény Ellenőrzése Magas Hőmérsékletű Sugárforrással}
+    
+    \section[Intenzitás Távolságfüggése]{Pontszerű Forrás Sugárzási Intenzitásának Távolságfüggése}
+    
+    \section[Alacsony Hőmérsékletű Sugárforrás]{Stefan-Boltzmann-Törvény Ellenőrzése Alacsony Hőmérsékletű Sugárforrással}
+    Ebben a feladatban egy alacsony hőmérsékletű sugárforrás (továbbiakban: \textit{kocka}) emissziójának vizsgálatával ellenőriztük a \textit{Stefan-Boltzmann-törvény} fennállását és határoztuk meg a kocka relatív emissziós (abszorpciós) tényezőjét.
+
+    \subsection{A mérési összeállítás}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=8cm]{632px-Homsug5}
+        \caption{Mérési összeállítás a kocka emissziójának vizsgálatához}
+        \label{fig:4ossze}
+    \end{figure}
+
+    A méréshez \aref{fig:4ossze}. ábrán látható módon szembe állítottuk a detektort a kockával, attól nagyjából 4 cm távolságban.
+    A detektor feszültségét ($U_d$) egy multiméteren néztük, a kocka termisztorának ellenállását ($R_t$) pedig egy másikon.
+    Kezdetben (ekkor még nem kapcsoltuk be a kocka fűtését) a kocka ellenállása $R_{t0}=80,13\pm 0,10~\mathrm{k\Omega}$ volt.
+    Ezután \textit{HIGH} állásba kapcsoltuk a kocka fűtését, és megkezdtük a mérést.
+
+    \subsection{A mérés menete}
+    A mérés során fél percenként forgattuk a kockát, melynek felületei így a következő sorban kerültek sorra: feketére festett, matt alumínium, fehérre festett, majd polírozott alumínium.
+    Minden pozícióban feljegyeztük a detektor $U_d$ feszültségét és a kocka termisztorának pillanatnyi $R_t$ ellenállását.
+    A mérést addig végeztük, amíg a termisztor ellenállása már nem igazán változott és a kezünknek is elég volt a forró kocka forgatásából (a kocka alja is jól felmelegedett).
+
+
+    \section{Abszorpciós tényezők meghatározása}
+
     \begin{thebibliography}
 
         \bibitem{leir} \href{https://fizipedia.bme.hu/index.php/H%C5%91m%C3%A9rs%C3%A9kleti_sug%C3%A1rz%C3%A1s_vizsg%C3%A1lata}{Fizipédia, mérési leirat}
