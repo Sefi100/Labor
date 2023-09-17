@@ -1,0 +1,4 @@
+\select@language {magyar} \contentsline {section}{\numberline {0}Elméleti Összefoglaló}{2}{section.0}%
+\select@language {magyar} \contentsline {subsection}{\numberline {0.1}A hőmérsékleti sugárzás alapjai}{2}{subsection.0.1}%
+\select@language {magyar} \contentsline {subsection}{\numberline {0.2}Az abszolút fekete test}{3}{subsection.0.2}%
+\select@language {magyar} \contentsline {subsection}{\numberline {0.3}Nem fekete testek sugárzása}{4}{subsection.0.3}%
