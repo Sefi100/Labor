@@ -2,3 +2,10 @@
 \select@language {magyar} \contentsline {subsection}{\numberline {0.1}A hőmérsékleti sugárzás alapjai}{2}{subsection.0.1}%
 \select@language {magyar} \contentsline {subsection}{\numberline {0.2}Az abszolút fekete test}{3}{subsection.0.2}%
 \select@language {magyar} \contentsline {subsection}{\numberline {0.3}Nem fekete testek sugárzása}{4}{subsection.0.3}%
+\select@language {magyar} \contentsline {section}{\numberline {1}Előkészületek}{5}{section.1}%
+\select@language {magyar} \contentsline {section}{\numberline {2}Magas Hőmérsékletű Sugárforrás}{6}{section.2}%
+\select@language {magyar} \contentsline {section}{\numberline {3}Intenzitás Távolságfüggése}{6}{section.3}%
+\select@language {magyar} \contentsline {section}{\numberline {4}Alacsony Hőmérsékletű Sugárforrás}{6}{section.4}%
+\select@language {magyar} \contentsline {subsection}{\numberline {4.1}A mérési összeállítás}{7}{subsection.4.1}%
+\select@language {magyar} \contentsline {subsection}{\numberline {4.2}A mérés menete}{7}{subsection.4.2}%
+\select@language {magyar} \contentsline {section}{\numberline {5}Abszorpciós tényezők meghatározása}{7}{section.5}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.21)  16 SEP 2023 19:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.21)  17 SEP 2023 17:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1708,17 +1708,11 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 
 {C:/Users/schba/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-<200px-Fenytores_homsug.jpg, id=32, 150.5625pt x 114.4275pt>
+<200px-Fenytores_homsug.jpg, id=62, 150.5625pt x 114.4275pt>
 File: 200px-Fenytores_homsug.jpg Graphic file (type jpg)
 <use 200px-Fenytores_homsug.jpg>
 Package pdftex.def Info: 200px-Fenytores_homsug.jpg  used on input line 80.
 (pdftex.def)             Requested size: 142.26378pt x 108.13106pt.
-
-
-LaTeX Warning: Citation `leir' on page 2 undefined on input line 81.
-
-
-LaTeX Warning: Citation `leir' on page 2 undefined on input line 81.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1729,7 +1723,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [2 <./200px-Fenytores_homsug.jpg>]
-<blackbody_radiation.png, id=52, 396.7623pt x 341.5962pt>
+<blackbody_radiation.png, id=85, 396.7623pt x 341.5962pt>
 File: blackbody_radiation.png Graphic file (type png)
 <use blackbody_radiation.png>
 Package pdftex.def Info: blackbody_radiation.png  used on input line 116.
@@ -1764,21 +1758,68 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [4 <./blackbody_radiation.png (PNG copy)>]
+<1linilleszt.pdf, id=116, 419.52483pt x 322.3883pt>
+File: 1linilleszt.pdf Graphic file (type pdf)
+<use 1linilleszt.pdf>
+Package pdftex.def Info: 1linilleszt.pdf  used on input line 180.
+(pdftex.def)             Requested size: 191.10214pt x 146.85414pt.
+<1vmiilleszt.pdf, id=117, 413.1416pt x 312.35081pt>
+File: 1vmiilleszt.pdf Graphic file (type pdf)
+<use 1vmiilleszt.pdf>
+Package pdftex.def Info: 1vmiilleszt.pdf  used on input line 186.
+(pdftex.def)             Requested size: 191.10214pt x 144.48381pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[5]
+Overfull \hbox (1.44528pt too wide) in paragraph at lines 194--194
+[]\T1/lmr/bx/n/17.28 Stefan-Boltzmann-T�rv�ny El-len-�r-z�-se Ma-
+ []
+
+
+Overfull \hbox (3.084pt too wide) in paragraph at lines 198--198
+[]\T1/lmr/bx/n/17.28 Stefan-Boltzmann-T�rv�ny El-len-�r-z�-se Ala-
+ []
+
+<632px-Homsug5.jpg, id=125, 152.2488pt x 108.405pt>
+File: 632px-Homsug5.jpg Graphic file (type jpg)
+<use 632px-Homsug5.jpg>
+Package pdftex.def Info: 632px-Homsug5.jpg  used on input line 204.
+(pdftex.def)             Requested size: 227.62204pt x 162.08603pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[6 <./1linilleszt.pdf> <./1vmiilleszt.pdf
+
+pdfTeX warning: pdflatex (file ./1vmiilleszt.pdf): PDF inclusion: multiple pdfs
+ with page group included in a single page
+>]
 Runaway argument?
 {\settowidth \labelwidth {\@biblabel {
-Hőmérsékleti Sugárzás.tex:158: Paragraph ended before \list was complete.
+Hőmérsékleti Sugárzás.tex:223: Paragraph ended before \list was complete.
 <to be read again> 
                    \par 
-l.158 
+l.223 
       
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
-Hőmérsékleti Sugárzás.tex:158: Extra }, or forgotten \endgroup.
+Hőmérsékleti Sugárzás.tex:223: Extra }, or forgotten \endgroup.
 \thebibliography ...h \labelwidth {\@biblabel {#1}
                                                   }\leftmargin \labelwidth \...
-l.158 
+l.223 
       
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1786,10 +1827,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-Hőmérsékleti Sugárzás.tex:158: Extra }, or forgotten \endgroup.
+Hőmérsékleti Sugárzás.tex:223: Extra }, or forgotten \endgroup.
 \thebibliography ... \labelwidth {\@biblabel {#1}}
                                                   \leftmargin \labelwidth \a...
-l.158 
+l.223 
       
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1797,10 +1838,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-Hőmérsékleti Sugárzás.tex:158: Extra }, or forgotten \endgroup.
+Hőmérsékleti Sugárzás.tex:223: Extra }, or forgotten \endgroup.
 \thebibliography ...eenumiv {\@arabic \c@enumiv }}
                                                   \sloppy \clubpenalty 4000 ...
-l.158 
+l.223 
       
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1809,59 +1850,59 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-Hőmérsékleti Sugárzás.tex:159: LaTeX Error: Lonely \item--perhaps a missin
+Hőmérsékleti Sugárzás.tex:224: LaTeX Error: Lonely \item--perhaps a missin
 g list environment.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.159         \bibitem{leir}
+l.224         \bibitem{leir}
                              \href{https://fizipedia.bme.hu/index.php/H%C5%9...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 159
+Underfull \hbox (badness 10000) detected at line 224
 [][]
  []
 
 
-Hőmérsékleti Sugárzás.tex:160: LaTeX Error: Lonely \item--perhaps a missin
+Hőmérsékleti Sugárzás.tex:225: LaTeX Error: Lonely \item--perhaps a missin
 g list environment.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.160         \bibitem{planck}
+l.225         \bibitem{planck}
                                \href{https://en.wikipedia.org/wiki/Planck%27...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 160
+Underfull \hbox (badness 10000) detected at line 225
 [][]
  []
 
 
-Hőmérsékleti Sugárzás.tex:161: LaTeX Error: Lonely \item--perhaps a missin
+Hőmérsékleti Sugárzás.tex:226: LaTeX Error: Lonely \item--perhaps a missin
 g list environment.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.161         \bibitem{rad}
+l.226         \bibitem{rad}
                             \href{https://glossary.periodni.com/glossary.php...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 161
+Underfull \hbox (badness 10000) detected at line 226
 [][]
  []
 
@@ -1873,46 +1914,56 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[5] (C:/Users\schba\PycharmProjects\Ellab\auxil\Hőmérsékleti Sugárzás.aux)
+[7 <./632px-Homsug5.jpg>]
 
-LaTeX Warning: There were undefined references.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
 
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+[8] (C:/Users\schba\PycharmProjects\Ellab\auxil\Hőmérsékleti Sugárzás.aux)
 
-Package rerunfilecheck Info: File `"Hőmérsékleti Sugárzás".out' has not ch
-anged.
-(rerunfilecheck)             Checksum: 49C70E907905B81F6CD32BEC084A6A1A;787.
+Package rerunfilecheck Warning: File `"Hőmérsékleti Sugárzás".out' has cha
+nged.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `"Hőmérsékleti Sugárzás".out':
+(rerunfilecheck)             Before: 987BF3BDC4E99986B143E017D89E61F8;1965
+(rerunfilecheck)             After:  C96D96BB54E8EDC4DF8598DDE1370A50;2105.
  ) 
 Here is how much of TeX's memory you used:
- 16926 strings out of 475385
- 289569 string characters out of 2776906
- 654161 words of memory out of 3000000
- 37994 multiletter control sequences out of 15000+600000
- 524928 words of font info for 77 fonts, out of 8000000 for 9000
+ 16988 strings out of 475385
+ 290660 string characters out of 2776906
+ 653893 words of memory out of 3000000
+ 38041 multiletter control sequences out of 15000+600000
+ 527918 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,12n,68p,379b,476s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Users/schba/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C
-:/Users/schba/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C
-:/Users/schba/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C
-:/Users/schba/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C
-:/Users/schba/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Us
+ 60i,12n,68p,379b,555s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{C:/Users/schba/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C
+:/Users/schba/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Us
+ers/schba/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Us
+ers/schba/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Us
+ers/schba/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}<C:/Us
 ers/schba/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Us
 ers/schba/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Us
 ers/schba/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Us
 ers/schba/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Use
 rs/schba/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/User
-s/schba/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users
-/schba/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/s
-chba/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/sch
-ba/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/sch
-ba/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/sch
-ba/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/schb
-a/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
+s/schba/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users
+/schba/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/
+schba/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/sc
+hba/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/schb
+a/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/schb
+a/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/schb
+a/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/schba
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
 Output written on "C:/Users\schba\PycharmProjects\Ellab\out\Hőmérsékleti Sug
-árzás.pdf" (5 pages, 433555 bytes).
+árzás.pdf" (8 pages, 561349 bytes).
 PDF statistics:
- 157 PDF objects out of 1000 (max. 8388607)
- 34 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 298 PDF objects out of 1000 (max. 8388607)
+ 48 named destinations out of 1000 (max. 500000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 
