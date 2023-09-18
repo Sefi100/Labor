@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.24)  17 SEP 2023 20:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.24)  18 SEP 2023 11:33
 entering extended mode
 **"./Hőmérsékleti Sugárzás.tex"
 (Hőmérsékleti Sugárzás.tex
@@ -2041,234 +2041,95 @@ Overfull \hbox (1.44528pt too wide) in paragraph at lines 194--194
 []\T1/lmr/bx/n/17.28 Stefan-Boltzmann-T�rv�ny El-len-�r-z�-se Ma-
  []
 
+Hőmérsékleti Sugárzás.tex:196: Undefined control sequence.
+\@@magyar@orig@label ...gingroup \def \label@name 
+                                                  {#1}\label@hook \protected...
+l.196 ...érési összeállítást \aref{fig:2fel}
+                                                  . ábra mutatja.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-LaTeX Warning: Reference `fig:2fel' on page 6 undefined on input line 196.
-
-
-Hőmérsékleti Sugárzás.tex:200: LaTeX Error: File `Mérési_elrendezés_1_h
-omsug' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.200 ...width=6cm]{Mérési_elrendezés_1_homsug}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps,.ep
-s
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `Homsug8.jpg' not found on input line 201.
-
-
-Hőmérsékleti Sugárzás.tex:201: Package pdftex.def Error: File `Homsug8.jpg
-' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.201 ... \includegraphics[width=6cm]{Homsug8.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (3.084pt too wide) in paragraph at lines 206--206
-[]\T1/lmr/bx/n/17.28 Stefan-Boltzmann-T�rv�ny El-len-�r-z�-se Ala-
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[6 <./1linilleszt.pdf> <./1vmiilleszt.pdf
-
-pdfTeX warning: pdflatex (file ./1vmiilleszt.pdf): PDF inclusion: multiple pdfs
- with page group included in a single page
->]
-<632px-Homsug5.jpg, id=212, 152.2488pt x 108.405pt>
-File: 632px-Homsug5.jpg Graphic file (type jpg)
-<use 632px-Homsug5.jpg>
-Package pdftex.def Info: 632px-Homsug5.jpg  used on input line 212.
-(pdftex.def)             Requested size: 227.62204pt x 162.08603pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[7]
-Runaway argument?
-{\settowidth \labelwidth {\@biblabel {
-Hőmérsékleti Sugárzás.tex:231: Paragraph ended before \list was complete.
+Hőmérsékleti Sugárzás.tex:196: Missing \endcsname inserted.
 <to be read again> 
-                   \par 
-l.231 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+                   \begingroup 
+l.196 ...érési összeállítást \aref{fig:2fel}
+                                                  . ábra mutatja.
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
 
-Hőmérsékleti Sugárzás.tex:231: Extra }, or forgotten \endgroup.
-\thebibliography ...h \labelwidth {\@biblabel {#1}
-                                                  }\leftmargin \labelwidth \...
-l.231 
-      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+Hőmérsékleti Sugárzás.tex:196: Missing \endcsname inserted.
+<to be read again> 
+                   \begingroup 
+l.196 ...érési összeállítást \aref{fig:2fel}
+                                                  . ábra mutatja.
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
 
-Hőmérsékleti Sugárzás.tex:231: Extra }, or forgotten \endgroup.
-\thebibliography ... \labelwidth {\@biblabel {#1}}
-                                                  \leftmargin \labelwidth \a...
-l.231 
-      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+Hőmérsékleti Sugárzás.tex:196: Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.196 ...érési összeállítást \aref{fig:2fel}
+                                                  . ábra mutatja.
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
 
-Hőmérsékleti Sugárzás.tex:231: Extra }, or forgotten \endgroup.
-\thebibliography ...eenumiv {\@arabic \c@enumiv }}
-                                                  \sloppy \clubpenalty 4000 ...
-l.231 
-      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+Hőmérsékleti Sugárzás.tex:196: Missing \endcsname inserted.
+<to be read again> 
+                   \edef 
+l.196 ...érési összeállítást \aref{fig:2fel}
+                                                  . ábra mutatja.
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
 
+Hőmérsékleti Sugárzás.tex:196: Missing \endcsname inserted.
+<to be read again> 
+                   \def 
+l.196 ...érési összeállítást \aref{fig:2fel}
+                                                  . ábra mutatja.
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
 
-Hőmérsékleti Sugárzás.tex:232: LaTeX Error: Lonely \item--perhaps a missin
-g list environment.
+Hőmérsékleti Sugárzás.tex:196: Missing \endcsname inserted.
+<to be read again> 
+                   \def 
+l.196 ...érési összeállítást \aref{fig:2fel}
+                                                  . ábra mutatja.
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.232         \bibitem{leir}
-                             \href{https://fizipedia.bme.hu/index.php/H%C5%9...
+Hőmérsékleti Sugárzás.tex:196: Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.196 ...érési összeállítást \aref{fig:2fel}
+                                                  . ábra mutatja.
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 232
-[][]
- []
-
-
-Hőmérsékleti Sugárzás.tex:233: LaTeX Error: Lonely \item--perhaps a missin
-g list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.233         \bibitem{planck}
-                               \href{https://en.wikipedia.org/wiki/Planck%27...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 233
-[][]
- []
-
-
-Hőmérsékleti Sugárzás.tex:234: LaTeX Error: Lonely \item--perhaps a missin
-g list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.234         \bibitem{rad}
-                            \href{https://glossary.periodni.com/glossary.php...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 234
-[][]
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[8 <./632px-Homsug5.jpg>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[9] (C:/Users\gyfan\PycharmProjects\HalLab\auxil\Hőmérsékleti Sugárzás.aux
 )
+! Incomplete \ifcsname; all text was ignored after line 196.
+<inserted text> 
+                \fi 
+<*> "./Hőmérsékleti Sugárzás.tex"
+                                      
+The file ended while I was skipping conditional text.
+This kind of error happens when you say `\if...' and forget
+the matching `\fi'. I've inserted a `\fi'; this might work.
 
-LaTeX Warning: There were undefined references.
+! Emergency stop.
+<*> "./Hőmérsékleti Sugárzás.tex"
+                                      
+*** (job aborted, no legal \end found)
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package rerunfilecheck Info: File `"Hőmérsékleti Sugárzás".out' has not ch
-anged.
-(rerunfilecheck)             Checksum: C96D96BB54E8EDC4DF8598DDE1370A50;2105.
- ) 
+ 
 Here is how much of TeX's memory you used:
- 16171 strings out of 478864
- 260545 string characters out of 2848660
- 604068 words of memory out of 3000000
- 33756 multiletter control sequences out of 15000+600000
- 462407 words of font info for 78 fonts, out of 8000000 for 9000
+ 16076 strings out of 478864
+ 258166 string characters out of 2848660
+ 604230 words of memory out of 3000000
+ 33684 multiletter control sequences out of 15000+600000
+ 462089 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,12n,68p,379b,539s stack positions out of 5000i,500n,10000p,200000b,80000s
-{C:/Users/gyfan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C
-:/Users/gyfan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Us
-ers/gyfan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Us
-ers/gyfan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Us
-ers/gyfan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}<C:/Us
-ers/gyfan/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Us
-ers/gyfan/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Us
-ers/gyfan/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Us
-ers/gyfan/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Use
-rs/gyfan/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/User
-s/gyfan/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users
-/gyfan/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/
-gyfan/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/gy
-fan/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/gyfa
-n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/gyfa
-n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/gyfa
-n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/gyfan
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on "C:/Users\gyfan\PycharmProjects\HalLab\out\Hőmérsékleti Su
-gárzás.pdf" (9 pages, 566042 bytes).
-PDF statistics:
- 308 PDF objects out of 1000 (max. 8388607)
- 50 named destinations out of 1000 (max. 500000)
- 114 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+!  ==> Fatal error occurred, no output PDF file produced!
