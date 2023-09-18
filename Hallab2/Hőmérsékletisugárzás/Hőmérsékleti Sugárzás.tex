@@ -201,7 +201,53 @@
         \includegraphics[width=6cm]{Homsug8.jpg}
         \caption{Bal oldalon a mérési összeállítás vázlata, jobb oldalon pedig a megvalósításról készült kép látható.}
     \end{figure}
+    \par
+    Ahogy az a képen is látható, mértük az izzó $I_{\mathrm{izzó}}$ áramát (20~A-es méréshatár), a rajta eső $U_{\mathrm{izzó}}$
+    feszültséget, valamint a detektor $U'_{\mathrm{det}}$ feszültségét (200~mV-os méréshatár). A detektort mindig árnyékoltuk, amikor éppen nem végeztünk mérést,
+    ezzel elkerülve az érzékelő felmelegedését. A mért detektorfeszültségből automatikusan levontuk a detektor sötétáramához tartozó feszültséget ($U_{\mathrm{sötét}}=0,13$~mV),
+    így a sugárzással arányos kimenőjelet kaptunk ($U_{\mathrm{det}}$).
+    Az izzóra kapcsolt feszültséget 1 V-os lépésekben 1 V-ról 12 V-ra növeltük, közben a mért áram- és feszültségértékekből kiszámoltuk az izzó ellenállását,
+    majd a táblázat alapján meghatároztuk a hőméréskletét. Ehhez a megadott adatokra (Fizipédia, A volfram fajlagos ellenállásának a hőmérsékletfüggése táblázat \cite{leir})
+    megfelelő alakú függvényt illesztettünk.
+    Mért adatainkat \aref{tab:2fel}. táblázat tartalmazza.
+
+    \begin{tabular}{cccccc}
+        \toprule
+        $I_{\mathrm{izzó}}$ (A) & $U_{\mathrm{izzó}}$ (V) & $R_{\mathrm{izzó}}$ (Ohm) & $U_{\mathrm{det}}$ (mV) & $R_{\mathrm{izzó}}/R_0$ & T (K) \\
+        \midrule
+        0,980000 & 1,000000 & 1,020000 & 0,070000 & 3,710000 & 878,800000 \\
+        1,310000 & 2,000000 & 1,530000 & 0,920000 & 5,590000 & 1195,670000 \\
+        1,570000 & 3,000000 & 1,910000 & 2,580000 & 6,990000 & 1431,980000 \\
+        1,830000 & 4,030000 & 2,200000 & 5,370000 & 8,040000 & 1610,550000 \\
+        2,040000 & 5,000000 & 2,450000 & 8,090000 & 8,940000 & 1763,050000 \\
+        2,240000 & 6,030000 & 2,690000 & 11,480000 & 9,810000 & 1909,730000 \\
+        2,420000 & 6,980000 & 2,890000 & 14,970000 & 10,530000 & 2031,020000 \\
+        2,600000 & 8,040000 & 3,090000 & 19,320000 & 11,290000 & 2158,820000 \\
+        2,760000 & 9,000000 & 3,260000 & 23,270000 & 11,900000 & 2263,030000 \\
+        2,920000 & 10,010000 & 3,430000 & 27,830000 & 12,510000 & 2365,230000 \\
+        3,070000 & 11,000000 & 3,580000 & 32,760000 & 13,080000 & 2462,160000 \\
+        3,210000 & 11,970000 & 3,730000 & 37,510000 & 13,610000 & 2551,420000 \\
+        \bottomrule
+        \label{tab:2fel}
+    \end{tabular}
+    \par
+    A detektorfeszültséget ábrázolva a kiszámított hőmérséklet negyedik hatványának függvényében egy egyenest kapunk (ld. \aref{fig:2fel2}. ábra),
+    melynek egyenlete $(9,11 \cdot 10^{-16} \pm 5,45 \cdot 10^{-18})[V/K^4] \cdot T^4 -(7,368 \cdot 10^{-4} pm 1,21 \cdot 10^{-4})[V].
+    A paraméterek hibáját az illesztés kovarianciamátrixából határoztuk meg.
+    Megállapítható, hogy mivel a detektorfeszültség (mely arányos a kisugárzott energiával) arányos a hőmérséklet negyedik hatványával,
+    így a Stefan-Boltzmann törvény teljesül.
+    \begin{figure}
+        \label{fig:2fel2}
+        \centering
+        \includegraphics[width=6cm]{2fel.pdf}
+        \caption{A detektorfeszültség függése $T^4$-től.}
+    \end{figure}
+
+
+
+
     \section[Intenzitás Távolságfüggése]{Pontszerű Forrás Sugárzási Intenzitásának Távolságfüggése}
+
     
     \section[Alacsony Hőmérsékletű Sugárforrás]{Stefan-Boltzmann-Törvény Ellenőrzése Alacsony Hőmérsékletű Sugárforrással}
     Ebben a feladatban egy alacsony hőmérsékletű sugárforrás (továbbiakban: \textit{kocka}) emissziójának vizsgálatával ellenőriztük a \textit{Stefan-Boltzmann-törvény} fennállását és határoztuk meg a kocka relatív emissziós (abszorpciós) tényezőjét.
